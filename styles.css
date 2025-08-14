@@ -1,4 +1,4 @@
-body {
+.body {
     background-color: #f0f0f0;
 }
 
@@ -19,7 +19,9 @@ body {
 .tablita {
     display: flex;
     flex-flow: column nowrap;
-    width: 90%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .filita {
@@ -40,5 +42,5 @@ body {
 
 .fotito {
     display: flex;
-    flex-grow: 2;
+    flex-grow: 1.35;
 }
