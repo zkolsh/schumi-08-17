@@ -31,9 +31,15 @@
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+    border: 5px;
+    border-radius: 10px;
 }
 
 .filita {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     display: flex;
     flex-flow: row nowrap;
     flex-direction: row;
@@ -47,11 +53,15 @@
     display: flex;
     flex-grow: 1;
     flex-basis: auto;
+    border: 1px;
+    border-radius: 5px;
 }
 
 .fotito {
     display: flex;
     flex-grow: 1.35;
+    border: 1px;
+    border-radius: 5px;
 }
 
 #logo-poli{
