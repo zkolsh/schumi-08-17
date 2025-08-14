@@ -13,6 +13,10 @@ body {
     color: #f0f0f0;
 }
 
+.header img{
+    height: 10px;
+}
+
 .tablita {
     display: flex;
     flex-direction: column;
