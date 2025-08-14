@@ -1,5 +1,6 @@
-.body {
+body {
     background-color: #f0f0f0;
+    margin-bottom: 5%;
 }
 
 .header {
@@ -15,39 +16,22 @@
     margin-bottom: 2em;
 }
 
-.header h1 {
-    flex-grow: 1;
-}
-
-.logo img {
+.logo {
     display: flex;
-    flex-shrink: 2;
-    width: auto;
-    height: 10%;
-}
-
-#logo-poli {
-    max-width: 100%;
-    height: auto;
-    max-height: 20px;
-    object-fit: contain;
-}
-
-.logo img {
-    display: flex;
-    flex-shrink: 2;
-    width: auto;
-    height: 20px;
+    max-width: 50px;
+    max-height: auto;
+    margin-right: 25px;
 }
 
 .tablita {
     display: flex;
     flex-flow: column nowrap;
-    width: 75%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid #1b1b1b;
     border-radius: 10px;
+    overflow-x: auto;
 }
 
 .filita {
@@ -68,55 +52,51 @@
 .itemcito {
     display: flex;
     flex-grow: 1;
+    flex-shrink: 1;
     flex-basis: auto;
     border: 2px solid #1b1b1b;
     border-radius: 5px;
+    min-width: 0px;
 }
 
 .fotito {
     display: flex;
-    flex-grow: 1.35;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
     border: 2px solid #1b1b1b;
     border-radius: 5px;
-}
-
-#logo-poli {
-    max-height: 10%;
-    transition: transform 0.3s ease;
+    min-width: 0px;
 }
 
 .imagen_Integrante {
     display: flex;
+    filter: grayscale(0%);
 }
 
 .imagen_Integrante:hover {
     filter: grayscale(100%);
 }
 
-logo-poli:hover {
-    animation: vibrar 0.2s infinite;
+#logo-poli {
+    transition: transform 0.3s ease;
+}
 
-    #logo-link:hover #logo-poli {
-        animation: vibrar 1s linear infinite;
+#logo-poli:hover {
+    animation: vibrar 0.2s linear infinite;
+}
+
+@keyframes vibrar {
+    0%,100% {
+        transform: translateX(0) rotate(0);
     }
-
-    @keyframes vibrar {
-
-        0%,
-        100% {
-            transform: translateX(0) rotate(0);
-        }
-
-        25% {
-            transform: translateX(-3px) rotate(-2deg);
-        }
-
-        50% {
-            transform: translateX(3px) rotate(2deg);
-        }
-
-        75% {
-            transform: translateX(-3px) rotate(-1deg);
-        }
+    25% {
+        transform: translateX(-5px) rotate(-2deg);
+    }
+    50% {
+        transform: translateX(5px) rotate(2deg);
+    }
+    75% {
+        transform: translateX(-5px) rotate(-1deg);
     }
 }
