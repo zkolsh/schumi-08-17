@@ -12,6 +12,7 @@
     color: #ffffff;
     height: 5%;
     max-height: 5%;
+    margin-bottom: 2em;
 }
 
 .header h1 {
@@ -46,6 +47,7 @@
     flex-wrap: nowrap;
     gap: 5px;
     justify-content: left;
+    align-items: stretch;
     width: 100%;
 }
 
