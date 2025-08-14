@@ -13,6 +13,11 @@
     max-height: 7.5%;
 }
 
+.logo {
+    max-width: 1em;
+    max-height: 1em;
+}
+
 .tablita {
     display: flex;
     flex-flow: column nowrap;
