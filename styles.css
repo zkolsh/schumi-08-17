@@ -1,3 +1,25 @@
 body {
     background-color: #f0f0f0;
 }
+
+.tablita {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 5px;
+    justify-content: space-evenly;
+}
+
+.filita {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    row-gap: 5px;
+    justify-content: left;
+}
+
+.itemcito {
+    flex-grow: 1;
+}
+
+.fotito {
+    flex-grow: 2;
+}
