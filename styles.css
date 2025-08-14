@@ -2,7 +2,6 @@ body {
     background-color: #f0f0f0;
 }
 
-
 .header{
     display: flex;
     flex-direction: row;
@@ -15,15 +14,13 @@ body {
 
 .tablita {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 5px;
-    justify-content: space-evenly;
+    flex-flow: column nowrap;
     width: 90%;
 }
 
 .filita {
     display: flex;
+    flex-flow: row nowrap;
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 5px;
@@ -34,6 +31,7 @@ body {
 .itemcito {
     display: flex;
     flex-grow: 1;
+    flex-basis: auto;
 }
 
 .fotito {
