@@ -19,6 +19,8 @@
 }
 
 .logo img {
+    display: flex;
+    flex-shrink: 2;
     width: auto;
     height: 10%;
 }
