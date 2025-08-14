@@ -2,7 +2,7 @@
     background-color: #f0f0f0;
 }
 
-.header{
+.header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -11,10 +11,6 @@
     background-color: #000000d7;
     color: #ffffff;
     max-height: 7.5%;
-}
-
-.header h1{
-    width: 50px;
 }
 
 .tablita {
