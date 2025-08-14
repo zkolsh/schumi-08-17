@@ -18,10 +18,6 @@
     flex-grow: 1;
 }
 
-.logo {
-    max-width: 1em;
-    max-height: 1em;
-    
 .logo img {
     display: flex;
     flex-shrink: 2;
