@@ -11,7 +11,7 @@
     background-color: #000000d7;
     color: #ffffff;
     height: 5%;
-    max-height: 20px;
+    max-height: 5%;
     margin-bottom: 2em;
 }
 
@@ -30,7 +30,7 @@
     display: flex;
     flex-shrink: 2;
     width: auto;
-    height: 10%;
+    height: 20px;
 }
 
 .tablita {
