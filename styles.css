@@ -13,6 +13,10 @@
     max-height: 7.5%;
 }
 
+.header h1{
+    width: 50px;
+}
+
 .tablita {
     display: flex;
     flex-flow: column nowrap;
