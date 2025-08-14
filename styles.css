@@ -10,13 +10,13 @@
     padding: 10px;
     background-color: #000000d7;
     color: #ffffff;
-    height: 7.5%;
+    height: 5%;
 }
 
 .logo {
     display: flex;
-    width: 1em;
-    height: 1em;
+    width: 5%;
+    height: 5%;
 }
 
 .tablita {
