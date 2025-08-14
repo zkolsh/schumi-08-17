@@ -16,10 +16,6 @@ body {
     margin-bottom: 2em;
 }
 
-.header h2{
-    font-size: 3rem;
-}
-
 .logo {
     display: flex;
     max-width: 50px;
