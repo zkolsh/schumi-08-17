@@ -1,24 +1,30 @@
 .body {
-    background-color: #f0f0f0;
-}
+        background-color: #f0f0f0;
+        }
 
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #000000d7;
-    color: #ffffff;
-    height: 5%;
-    max-height: 5%;
-    margin-bottom: 2em;
-}
+        .header {
+            display: flex;
+                flex-direction: row;
+                    justify-content: space-between;
+                        align-items: center;
+                            padding: 10px;
+                                background-color: #000000d7;
+                                    color: #ffffff;
+                                        height: 5%;
+                                            max-height: 5%;
+                                                margin-bottom: 2em;
+                                                }
 
-.header h1 {
-    flex-grow: 1;
-}
+                                                .header h1 {
+                                                    flex-grow: 1;
+                                                    }
 
+                                                    .logo img {
+                                                        display: flex;
+                                                            flex-shrink: 2;
+                                                                width: auto;
+                                                                    height: 10%;
+                                                                    }
 #logo-poli {
     max-width: 100%; 
     height: auto; 
@@ -33,16 +39,32 @@
     height: 20px;
 }
 
-.tablita {
-    display: flex;
-    flex-flow: column nowrap;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid #1b1b1b;
-    border-radius: 10px;
-}
+                                                                    .tablita {
+                                                                        display: flex;
+                                                                            flex-flow: column nowrap;
+                                                                                width: 75%;
+                                                                                    margin-left: auto;
+                                                                                        margin-right: auto;
+                                                                                            border: 2px solid #1b1b1b;
+                                                                                                border-radius: 10px;
+                                                                                                }
 
+<<<<<<< HEAD
+                                                                                                .filita {
+                                                                                                    margin-left: 5px;
+                                                                                                        margin-right: 5px;
+                                                                                                            margin-top: 5px;
+                                                                                                                margin-bottom: 5px;
+                                                                                                                    display: flex;
+                                                                                                                        flex-flow: row nowrap;
+                                                                                                                            flex-direction: row;
+                                                                                                                                flex-wrap: nowrap;
+                                                                                                                                    gap: 5px;
+                                                                                                                                        justify-content: left;
+                                                                                                                                            align-items: stretch;
+                                                                                                                                                width: 100%;
+                                                                                                                                                }
+=======
 .filita {
     margin-left: 5px;
     margin-right: 5px;
@@ -56,15 +78,24 @@
     width: 100%;
     box-sizing: border-box;
 }
+>>>>>>> 0d1542615a70679b2746cdaef7140cba2419ce63
 
-.itemcito {
-    display: flex;
-    flex-grow: 1;
-    flex-basis: auto;
-    border: 2px solid #1b1b1b;
-    border-radius: 5px;
-}
+                                                                                                                                                .itemcito {
+                                                                                                                                                    display: flex;
+                                                                                                                                                        flex-grow: 1;
+                                                                                                                                                            flex-basis: auto;
+                                                                                                                                                                border: 2px solid #1b1b1b;
+                                                                                                                                                                    border-radius: 5px;
+                                                                                                                                                                    }
 
+<<<<<<< HEAD
+                                                                                                                                                                    .fotito {
+                                                                                                                                                                        display: flex;
+                                                                                                                                                                            flex-grow: 1.35;
+                                                                                                                                                                                border: 2px solid #1b1b1b;
+                                                                                                                                                                                    border-radius: 5px;
+                                                                                                                                                                                    }
+=======
 .itemcito p {
     text-align: center;
 }
@@ -75,20 +106,45 @@
     border: 2px solid #1b1b1b;
     border-radius: 5px;
 }
+>>>>>>> 0d1542615a70679b2746cdaef7140cba2419ce63
 
+<<<<<<< HEAD
+=======
 #logo-poli{
     max-height: 10%;
     transition: transform 0.125s ease;
 }
+>>>>>>> 0d1542615a70679b2746cdaef7140cba2419ce63
 
-#logo-link:hover #logo-poli {
-    animation: vibrar 1s linear infinite;
+
+                                                                                                                                                                                    #logo-poli{
+                                                                                                                                                                                        max-height: 10%;
+                                                                                                                                                                                            transition: transform 0.3s ease;
+                                                                                                                                                                                            }
+
+                                                                                                                                                                                            .imagen_Integrante {
+                                                                                                                                                                                                display: flex;
+                                                                                                                                                                                                }
+
+                                                                                                                                                                                                .imagen_Integrante:hover {
+                                                                                                                                                                                                    filter: grayscale(100%);
+                                                                                                                                                                                                    }
+
+
+                                                                                                                                                                                                    logo-poli:hover {
+                                                                                                                                                                                                      animation: vibrar 0.2s infinite;
+                                                                                                                                                                                                      #logo-link:hover #logo-poli {
+                                                                                                                                                                                                          animation: vibrar 1s linear infinite;
+                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                          @keyframes vibrar {
+                                                                                                                                                                                                              0%, 100% { transform: translateX(0) rotate(0); }
+                                                                                                                                                                                                                  25% { transform: translateX(-3px) rotate(-2deg); }
+                                                                                                                                                                                                                      50% { transform: translateX(3px) rotate(2deg); }
+                                                                                                                                                                                                                          75% { transform: translateX(-3px) rotate(-1deg); }
+                                                                                                                                                                                                                          }
+
+
+
+                                                                                                                                                                                                                          
 }
-
-@keyframes vibrar {
-    0%, 100% { transform: translateX(0) rotate(0); }
-    25% { transform: translateX(-3px) rotate(-2deg); }
-    50% { transform: translateX(3px) rotate(2deg); }
-    75% { transform: translateX(-3px) rotate(-1deg); }
-}
-
