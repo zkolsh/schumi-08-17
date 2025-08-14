@@ -10,13 +10,11 @@
     padding: 10px;
     background-color: #000000d7;
     color: #ffffff;
-    max-height: 7.5%;
     height: 7.5%;
 }
 
 .logo {
-    max-width: fit-content;
-    max-height: fit-content;
+    display: flex;
 }
 
 .tablita {
