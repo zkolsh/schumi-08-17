@@ -13,10 +13,6 @@ body {
     color: #f0f0f0;
 }
 
-.header img{
-    height: 10px;
-}
-
 .tablita {
     display: flex;
     flex-direction: column;
@@ -42,4 +38,3 @@ body {
     display: flex;
     flex-grow: 2;
 }
->>>>>>> 77652b8f47916cdee582e8c48a68dc6f92c4d219
