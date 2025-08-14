@@ -19,14 +19,16 @@ body {
     flex-wrap: nowrap;
     gap: 5px;
     justify-content: space-evenly;
+    width: 90%;
 }
 
 .filita {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    row-gap: 5px;
+    gap: 5px;
     justify-content: left;
+    width: 100%;
 }
 
 .itemcito {
