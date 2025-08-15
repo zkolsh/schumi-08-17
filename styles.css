@@ -77,9 +77,9 @@ body {
 }
 
 .imagen_Integrante {
+    display: flex;
     max-width: 150px;
     max-height: 150px;
-    display: block;
     margin: 0 auto;
 }
 
