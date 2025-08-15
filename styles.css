@@ -16,6 +16,12 @@ body {
     margin-bottom: 2em;
 }
 
+.texto {
+  font-size: 2vw;    
+  max-width: 90%;          
+  text-align: center;
+}
+
 .logo {
     display: flex;
     max-width: 50px;
