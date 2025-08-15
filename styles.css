@@ -77,15 +77,10 @@ body {
 }
 
 .imagen_Integrante {
-    display: flex;
-    filter: grayscale(0%);
-    display: flex;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: auto;
-    border: 2px solid #1b1b1b;
-    border-radius: 5px;
-    min-width: 0px;
+    max-width: 150px;
+    max-height: 150px;
+    display: block;
+    margin: 0 auto;
 }
 
 .imagen_Integrante:hover {
