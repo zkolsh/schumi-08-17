@@ -14,8 +14,7 @@ body {
     height: 5%;
     max-height: 5%;
     margin-bottom: 2em;
-    gap: 750px;
-    font-size: 24px;
+    gap: clamp(20px, 39vw, 750px);
 }
 
 .logo {
