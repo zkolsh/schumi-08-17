@@ -79,6 +79,13 @@ body {
 .imagen_Integrante {
     display: flex;
     filter: grayscale(0%);
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border: 2px solid #1b1b1b;
+    border-radius: 5px;
+    min-width: 0px;
 }
 
 .imagen_Integrante:hover {
