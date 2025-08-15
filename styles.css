@@ -6,8 +6,9 @@ body {
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;      
+    position: relative;              
     padding: 10px;
     background-color: #000000d7;
     color: #ffffff;
@@ -16,16 +17,17 @@ body {
     margin-bottom: 2em;
 }
 
-.texto {
-  left: 50%;
-}
-
 .logo {
     display: flex;
     max-width: 50px;
-    max-height: auto;
+    max-height: 50px;
     margin-right: 25px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
 }
+
 
 .tablita {
     display: flex;
