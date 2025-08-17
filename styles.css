@@ -71,6 +71,8 @@ body {
     text-overflow: ellipsis;
     word-wrap: break-word;
     justify-content: center;
+    font-size:1.2em;
+    font-family:arial;
 }
 
 .imagen_Integrante {
