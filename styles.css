@@ -1,5 +1,6 @@
 body {
-    background-color: #99D9EA;
+    background-color: #6A1B3F;
+    font-family: Arial, sans-serif;
     margin-bottom: 5%;
 }
 
@@ -10,7 +11,7 @@ body {
     justify-content: center;      
     position: relative;              
     padding: 10px;
-    background-color: #000000d7;
+    background-color: #6A1B3F;
     color: #ffffff;
     height: 5%;
     max-height: 5%;
@@ -35,10 +36,10 @@ body {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #000;
+    border: 2px solid #1b1b1b;
     border-radius: 10px;
     overflow-x: auto;
-    background-color: #000;
+    background-color: #7FDBFF;
 }
 
 .columnita {
@@ -56,10 +57,10 @@ body {
 .itemcito {
     display:flex;
     flex: 1;
-    border: 2px solid #000;
+    border: 2px solid #1b1b1b;
     border-radius: 5px;
     min-width: 0px;
-    background-color: #87CEEB;
+    background-color: #7FDBFF;
     color: #000;
     max-height: calc(100% / 7);
     height: calc(100% / 7);
