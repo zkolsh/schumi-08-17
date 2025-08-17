@@ -1,7 +1,7 @@
 body {
     background-color: #912656;
     font-family: Arial, sans-serif;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
 }
 
 .header {
@@ -11,7 +11,7 @@ body {
     justify-content: center;      
     position: relative;              
     padding: 10px;
-    background-color: #912656;
+    background-color: #2f1b31;
     color: #ffffff;
     height: 5%;
     max-height: 5%;
@@ -36,10 +36,10 @@ body {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #1b1b1b;
+    border: 3px solid #c51564;
     border-radius: 10px;
     overflow-x: auto;
-    background-color: #7FDBFF;
+    background-color: #2f1b31;
 }
 
 .columnita {
@@ -57,7 +57,7 @@ body {
 .itemcito {
     display:flex;
     flex: 1;
-    border: 2px solid #1b1b1b;
+    border: 2px solid #565398;
     border-radius: 5px;
     min-width: 0px;
     background-color: #7FDBFF;
