@@ -54,6 +54,7 @@ body {
 }
 
 .itemcito {
+    display:flex;
     flex: 1;
     border: 2px solid #000;
     border-radius: 5px;
@@ -68,6 +69,7 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     word-wrap: break-word;
+    justify-content: center;
 }
 
 .imagen_Integrante {
