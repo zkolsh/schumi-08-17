@@ -34,6 +34,8 @@ body {
     display: flex;
     flex-flow: row nowrap;
     width: 85%;
+    margin-left: auto;
+    margin-right: auto;
     margin: 15px; 
     border: 5px solid #c51564;
     border-radius: 10px;
