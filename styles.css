@@ -70,17 +70,6 @@ body {
     word-wrap: break-word;
 }
 
-.fotito {
-    display: flex;
-    flex: 3;
-    flex-basis: auto;
-    border: 2px solid #000;
-    border-radius: 5px;
-    min-width: 0px;
-    height: 1em;
-    background-color: #87CEEB;
-}
-
 .imagen_Integrante {
     display: flex;
     max-width: 300px;
